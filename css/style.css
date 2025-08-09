@@ -1,0 +1,200 @@
+:root{
+ --white--color:#fffaf2;
+ --light-brown-color: #F5D6AB;
+ --brown--color: #C66C49;
+ --dark-borwn-color: #8B4136;
+ --dark-gray-color:#333333  ;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ ul,li {
+  list-style: none;
+
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+body{
+     font-family: "Libre Franklin", sans-serif;
+     font-weight:400 ;
+     font-size:18px ;
+     line-height:1.7;
+     letter-spacing:0% ;
+     color: var(--dark-gray-color);
+     background-color: white;
+}
+
+.container {
+    max-width: 1107px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+a {
+ text-decoration: none;
+}
+
+ul.ol{
+ list-style:none ;
+ margin: 0;
+ padding: 0;
+}
+.site-wrapper {
+    background-image: url(../img/Background.png);
+    background-position: center;
+}
+.site-header {
+ padding-top: 93px;
+ padding-bottom: 93px;
+}
+.site-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site_header__logo-link {
+    margin-right: 20px;
+}
+.site-header__list {
+    display: flex;
+    margin-right: 60px;
+}
+.site-header-item:not(:last-child) {
+     margin-right: 60px;
+}
+.site_header__link {
+  color: var(--white--color);font-family: Libre Franklin;
+
+}
+
+.menu{
+ display: none;
+}
+.hero {
+ padding: 52px;
+ padding-bottom: 240px ;
+ color: var(--white--color);
+}
+ 
+.hero_title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin-bottom: 26px;
+  
+}
+
+
+.hero__text {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 106px;
+}
+
+.hero__link {
+ color: var(--white--color);
+ line-height: 1;
+ text-decoration: underline;
+}
+
+.main-text{
+    margin-bottom: 30px;
+}
+
+.site-about {
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+color: #333333;
+margin-bottom: 76px;
+text-align: start;
+margin-top: 93px;
+}
+
+/* MEDIA */
+@media screen and (max-width: 768px) {
+
+    body{
+     font-size:14px ;
+     
+}
+
+ 
+ .site-header__container{
+    justify-content: center;
+ }
+
+
+.site-header {
+ padding-top: 60px;
+ padding-bottom: 60px;
+}
+
+.site-header__list{
+ display: none;
+}
+ 
+  .menu{
+    display: inline;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+  }
+  .site-about {
+font-size: 24px;
+margin-bottom: 19px;
+text-align: center;
+margin-top: 25px;
+}
+}
+
+
+@media screen and (max-width: 420px) {
+
+    body{
+     font-size:  12px;
+     
+}
+
+ 
+ 
+
+.site-header {
+ padding-top: 39px;
+ padding-bottom: 39px;
+}
+
+ 
+ 
+  .menu{
+    top: 39px;
+  }
+  .site-about {
+font-size: 24px;
+margin-bottom: 19px;
+text-align: center;
+margin-top: 25px;
+}
+}
+
+
+
+
+
+
+
